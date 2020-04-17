@@ -1,4 +1,13 @@
-'\e[1;36m'
+#!/bin/bash
+#Dont Change CopyRight Cok
+#KrisnaEdunt
+
+red='\e[1;31m'
+green='\e[1;32m'
+yellow='\e[1;33m'
+blue='\e[1;34m'
+magenta='\e[1;35m'
+cyan='\e[1;36m'
 white='\e[1;37m'
 clear
 		echo -e "\e[1;31mL\e[1;37moading \e[1;33m~\e[1;37m";
@@ -77,13 +86,13 @@ clear
 	esac
 		clear
 		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;32m            GOJEK Gondrong              ";
+		echo -e "\e[1;32m            GOJEK VERSION BIO SOLAR              ";
 		echo -e "\e[1;35m-------------------------------------------------";
 		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
 		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;36m             Gondrong Tools v0.1           ";
+		echo -e "\e[1;36m             Kuchiyose Tools v0.1           ";
 		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;37m         Thanks to Allah            ";
+		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
 		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
 
 #menu
@@ -98,7 +107,7 @@ case $opt2 in
 		echo -e "\e[1;35m-------------------------------------------------";
 		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
 		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;34m            EDISI 2020            ";
+		echo -e "\e[1;34m            EDISI 05 APRIL 2020            ";
 		echo -e "\e[1;35m-------------------------------------------------";
 		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
 		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
