@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Asia/Bandung');
+date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo "\e[99m_________________\e[99m".date('[d-m-Y] [H:i:s]')."\e[99m________________\n";
 echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
