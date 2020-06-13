@@ -126,7 +126,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("blue",".");
         sleep(20);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"MAKANGOFOOD0906"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD0906"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("pink","🔓▶️ Message: ".$message);
         echo "\n".color("nevy","🔒▶️ Claim voucher B1");
@@ -136,7 +136,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         sleep(1);
         }
         sleep(5);
-        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code"PAKEGOFOOD0906"}');
+        $boba09 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code"MAKANGOFOOD0906"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("pink","🔓▶️ Message: ".$messageboba09);
         sleep(3);
