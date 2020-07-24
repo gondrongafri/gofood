@@ -43,7 +43,7 @@ include "function1.php";
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("nevy","+] Akses Token Anjen: ".$token."\n\n");
         save("token.txt",$token);
-        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬ faktor face memengaruhi  ▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬ faktor face mempengaruhi  ▬▬▬▬▬▬▬▬▬▬▬▬");
         echo "\n".color("nevy","Vc1");
         echo "\n".color("yellow","Antosan Sakedap.... Cigana Moal Benang Nu Ie");
         for($a=1;$a<=3;$a++){
