@@ -50,7 +50,7 @@ include "function1.php";
         echo color("yellow",".");
         sleep(20);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGORIDEPAY"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","Message: ".$message);
@@ -64,7 +64,7 @@ include "function1.php";
         echo color("yellow",".");
         sleep(20);
         }
-        $code1 = request1('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
+        $code1 = request1('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD090320A"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","Message: ".$message);
@@ -78,7 +78,7 @@ include "function1.php";
         echo color("yellow",".");
         sleep(10);
         }
-        $code1 = request2('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2107"}');
+        $code1 = request2('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"G-75SR565"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","Message: ".$message);
         echo "\n".color("nevy","Vc4");
@@ -88,7 +88,7 @@ include "function1.php";
         sleep(1);
         }
         sleep(5);
-        $boba09 = request1('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2107"}');
+        $boba09 = request1('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOCAR14"}');
         $messageboba09 = fetch_value($boba09,'"message":"','"');
         echo "\n".color("green","Message: ".$messageboba09);
         sleep(3);
